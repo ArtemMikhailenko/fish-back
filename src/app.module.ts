@@ -10,7 +10,7 @@ import { UploadsModule } from './uploads/uploads.module';
   imports: [
     // Замените <username>, <password>, <cluster-url>, <databaseName> на свои реальные данные
     MongooseModule.forRoot(
-      'mongodb+srv://artemlend:1234@cluster0.38f7t.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0',
+      'mongodb+srv://fish:fish@cluster0.sfqvbnb.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0',
     ),
     ConfigModule.forRoot({
       isGlobal: true,
